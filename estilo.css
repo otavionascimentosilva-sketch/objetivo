@@ -45,6 +45,37 @@ body{
     border-right: 2px solid var (--botao-ativo);
     border-top: none;
 }
+.aba-conteudo.ativo{
+    display:block;
+}
+
+.aba-conteudo.ativo{
+    display: none;
+}
+.abas-texto{
+    background-color: var(--botao-inativo);
+    padding: 40px;
+    border-radius:0 0 40px 40px
+}
+
+.conteudo-titulo-principal{
+    font-size: 28px;
+    texto-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:768px){
     .botoes{
         display: flex;
@@ -54,6 +85,4 @@ body{
 {
     .botao:first-child
     border-radius: 0 40px 0 0;
-
-}
 }
