@@ -1,14 +1,10 @@
-font-size: 50px;
-     color: red;
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 :root{
 
      --cor-de-fundo:#000000;
      --cor-texto-principal:#ffe600;
-     --cor-texto-secundari:#f0b000;
+     --cor-texto-secundaria:#f0b000;
      --botao-ativo:#ff0000;
      --botao-inativo:#b3370a;
 }
